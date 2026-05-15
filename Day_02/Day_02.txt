@@ -1,0 +1,15 @@
+In Java we have six different smallest unit in order to deploy Java Program.
+
+1.KeyWords
+2.Literals
+3.Identifires
+4.Operators
+5.Separators
+6.Comments
+
+
+Veriables : There are the named memories which are used in order to store some vlues.
+
+DataTypes: 
+
+Type of dataTypes : 
