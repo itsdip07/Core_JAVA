@@ -1,1 +1,189 @@
 Today's Summary : 
+Tokens in Java
+
+A token is the smallest individual unit in a Java program.
+
+Example:
+
+int a = 10;
+
+Tokens:
+
+int
+a
+=
+10
+;
+Types of Tokens in Java
+Keywords
+Identifiers
+Literals
+Operators
+Separators
+Comments
+1. Keywords
+
+Keywords are reserved words in Java with predefined meanings.
+They cannot be used as variable names.
+
+Examples:
+
+int
+class
+public
+static
+void
+if
+else
+return
+
+Example:
+
+public class Demo {
+    public static void main(String[] args) {
+        int a = 10;
+    }
+}
+
+Keywords used:
+
+public
+class
+static
+void
+int
+2. Identifiers
+
+Identifiers are names given to variables, methods, classes, and objects.
+
+Example:
+
+int age = 21;
+
+Here, age is an identifier.
+
+Rules for Identifiers
+Can contain letters, digits, _, $
+Cannot start with a digit
+Cannot contain spaces
+Cannot use Java keywords
+Valid Identifiers
+studentName
+_age
+$salary
+num1
+Invalid Identifiers
+1num
+student name
+class
+3. Literals
+
+Literals are fixed values assigned to variables.
+
+Example:
+
+int a = 10;
+
+Here, 10 is a literal.
+
+Types of Literals
+Integer Literal
+int a = 100;
+Floating Literal
+double d = 12.5;
+Character Literal
+char ch = 'A';
+String Literal
+String s = "Java";
+Boolean Literal
+boolean b = true;
+4. Operators
+
+Operators perform operations on variables and values.
+
+Arithmetic Operators
++  -  *  /  %
+
+Example:
+
+int a = 10 + 5;
+Relational Operators
+==  !=  >  <  >=  <=
+
+Example:
+
+if(a > b)
+Logical Operators
+&&  ||  !
+
+Example:
+
+if(a > 5 && b < 10)
+Assignment Operators
+=  +=  -=  *=  /=
+
+Example:
+
+a += 5;
+Increment and Decrement Operators
+++  --
+
+Example:
+
+a++;
+5. Separators
+
+Separators are symbols used to separate different parts of a program.
+
+Examples:
+
+( )  { }  [ ]  ;  ,  .
+
+Example:
+
+System.out.println("Hello");
+
+Separators used:
+
+.
+(
+)
+;
+6. Comments
+
+Comments are notes in a program ignored by the compiler.
+
+Single-Line Comment
+// This is single-line comment
+Multi-Line Comment
+/*
+This is
+multi-line comment
+*/
+Documentation Comment
+/**
+ * This is documentation comment
+ */
+
+Used for generating Java documentation.
+
+Complete Example
+public class Demo {
+
+    public static void main(String[] args) {
+
+        // variable declaration
+        int age = 21;
+
+        System.out.println(age);
+    }
+}
+
+Explanation:
+
+public, class, int → Keywords
+Demo, age → Identifiers
+21 → Literal
+= → Operator
+(), {}, ; → Separators
+// variable declaration → Comment
