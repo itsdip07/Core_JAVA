@@ -1,0 +1,25 @@
+Data Types in Java
+
+Data types in Java specify:
+
+what kind of value a variable can store
+how much memory it uses
+what operations can be performed
+
+Java has 2 main types of data types:
+
+Primitive Data Types
+Non-Primitive Data Types
+1. Primitive Data Types
+
+Java provides 8 primitive data types.
+
+Data Type	Size	Example
+byte	1 byte	byte a = 10;
+short	2 bytes	short b = 200;
+int	4 bytes	int c = 5000;
+long	8 bytes	long d = 99999L;
+float	4 bytes	float e = 12.5f;
+double	8 bytes	double f = 99.99;
+char	2 bytes	char g = 'A';
+boolean	1 bit	boolean h = true;
