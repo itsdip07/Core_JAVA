@@ -70,3 +70,76 @@ public class Demo {
         System.out.println(result);
     }
 }
+
+Variables in Java
+
+A variable is a name used to store data in memory.
+The value of a variable can change during program execution.
+
+Syntax
+dataType variableName = value;
+Example
+int age = 21;
+
+Here:
+
+int → data type
+age → variable name
+21 → value
+Rules for Variables
+Variable names can contain letters, digits, _, $
+Cannot start with a number
+Cannot contain spaces
+Cannot use Java keywords
+Data Types in Java
+
+Data types specify:
+
+what type of value a variable stores
+memory size
+allowed operations
+
+Java has two types of data types:
+
+Primitive Data Types
+Non-Primitive Data Types
+Primitive Data Types
+Data Type	Description	Example
+byte	Small integer	byte a = 10;
+short	Short integer	short b = 100;
+int	Integer	int c = 500;
+long	Large integer	long d = 99999L;
+float	Decimal number	float e = 12.5f;
+double	Large decimal	double f = 99.99;
+char	Single character	char g = 'A';
+boolean	True or false	boolean h = true;
+Non-Primitive Data Types
+
+These are reference types created by programmers or Java.
+
+Examples:
+
+String
+Array
+Class
+Object
+
+Example:
+
+String name = "Dip";
+Example Program
+public class Demo {
+
+    public static void main(String[] args) {
+
+        int age = 21;
+        double salary = 45000.50;
+        char grade = 'A';
+        boolean result = true;
+
+        System.out.println(age);
+        System.out.println(salary);
+        System.out.println(grade);
+        System.out.println(result);
+    }
+}
