@@ -1,0 +1,15 @@
+Topics :
+	
+	1. Property of widening :
+	
+	2. TypeCast Operator :
+	
+	3. Narrowing :
+
+	4. Range of database :
+
+	5. Benefit of Widening :
+
+	6. Why Character can't be store inside sort :
+
+	7. What is ASCII Value : 
