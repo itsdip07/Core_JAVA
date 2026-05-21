@@ -1,0 +1,9 @@
+Write a program to convert any character into their ASCII value.
+
+Convert the ASCII into character.
+
+Types of variables 1. Local Variable  2. Global Variable 0. Non Static Variable 
+
+what is Unicode ??
+
+
