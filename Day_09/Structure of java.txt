@@ -1,1 +1,6 @@
-The first outer layer is known as project. (It is the main Folder)
+1.The first outer layer is known as project. (It is the main Folder)
+
+2.Inside the project we have packeges. These are the sub folder of main folder.
+
+3.Indide the packge we need to create classes, Interface...
+
