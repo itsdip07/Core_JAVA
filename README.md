@@ -1,3 +1,3 @@
 # Core_JAVA
-Core java
+Core java daily journey
 
